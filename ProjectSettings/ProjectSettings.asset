@@ -13,7 +13,11 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: BrandynR
+<<<<<<< HEAD
   productName: 0x0A
+=======
+  productName: 0x0A-unity-360_video_tour
+>>>>>>> 0c2cd2279b202a239cedff13907d56c1efeb0af7
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -112,8 +116,13 @@ PlayerSettings:
   switchNVNShaderPoolsGranularity: 33554432
   switchNVNDefaultPoolsGranularity: 16777216
   switchNVNOtherPoolsGranularity: 16777216
+  switchNVNMaxPublicTextureIDCount: 0
+  switchNVNMaxPublicSamplerIDCount: 0
+  stadiaPresentMode: 0
+  stadiaTargetFramerate: 0
   vulkanNumSwapchainBuffers: 3
   vulkanEnableSetSRGBWrite: 0
+  vulkanEnableLateAcquireNextImage: 0
   m_SupportedAspectRatios:
     4:3: 1
     5:4: 1
@@ -121,7 +130,9 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 0.1
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 6829396453809524865, guid: d37a1bbe52b9947399d721350e6653e2, type: 2}
+  - {fileID: 11400000, guid: c6a6f79a811e64ade99db6475405c183, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -164,7 +175,12 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
+<<<<<<< HEAD
     Android: com.BrandynR.VR0x0Aunity360_video_tour
+=======
+    Android: com.BrandynR.0x0Aunity360_video_tour
+    Standalone: com.BrandynR.0x0A-unity-360videotour
+>>>>>>> 0c2cd2279b202a239cedff13907d56c1efeb0af7
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 24
@@ -192,22 +208,6 @@ PlayerSettings:
   uIStatusBarHidden: 1
   uIExitOnSuspend: 0
   uIStatusBarStyle: 0
-  iPhoneSplashScreen: {fileID: 0}
-  iPhoneHighResSplashScreen: {fileID: 0}
-  iPhoneTallHighResSplashScreen: {fileID: 0}
-  iPhone47inSplashScreen: {fileID: 0}
-  iPhone55inPortraitSplashScreen: {fileID: 0}
-  iPhone55inLandscapeSplashScreen: {fileID: 0}
-  iPhone58inPortraitSplashScreen: {fileID: 0}
-  iPhone58inLandscapeSplashScreen: {fileID: 0}
-  iPadPortraitSplashScreen: {fileID: 0}
-  iPadHighResPortraitSplashScreen: {fileID: 0}
-  iPadLandscapeSplashScreen: {fileID: 0}
-  iPadHighResLandscapeSplashScreen: {fileID: 0}
-  iPhone65inPortraitSplashScreen: {fileID: 0}
-  iPhone65inLandscapeSplashScreen: {fileID: 0}
-  iPhone61inPortraitSplashScreen: {fileID: 0}
-  iPhone61inLandscapeSplashScreen: {fileID: 0}
   appleTVSplashScreen: {fileID: 0}
   appleTVSplashScreen2x: {fileID: 0}
   tvOSSmallIconLayers: []
@@ -655,6 +655,7 @@ PlayerSettings:
   ps4UseResolutionFallback: 0
   ps4ReprojectionSupport: 0
   ps4UseAudio3dBackend: 0
+  ps4UseLowGarlicFragmentationMode: 1
   ps4SocialScreenEnabled: 0
   ps4ScriptOptimizationLevel: 0
   ps4Audio3dVirtualSpeakerCount: 14
@@ -759,6 +760,7 @@ PlayerSettings:
   XboxOnePersistentLocalStorageSize: 0
   XboxOneXTitleMemory: 8
   XboxOneOverrideIdentityName: 
+  XboxOneOverrideIdentityPublisher: 
   vrEditorSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}

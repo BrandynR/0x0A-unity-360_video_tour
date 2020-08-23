@@ -414,23 +414,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 541453574, guid: 6b51cd991247644a28bed6b871a9016e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.64
+      value: -4.76
       objectReference: {fileID: 0}
     - target: {fileID: 541453574, guid: 6b51cd991247644a28bed6b871a9016e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 856
+      value: 692
       objectReference: {fileID: 0}
     - target: {fileID: 541453574, guid: 6b51cd991247644a28bed6b871a9016e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 17.8
+      value: 14.4
       objectReference: {fileID: 0}
     - target: {fileID: 541453574, guid: 6b51cd991247644a28bed6b871a9016e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.568549
+      value: 1.4418256
       objectReference: {fileID: 0}
     - target: {fileID: 541453574, guid: 6b51cd991247644a28bed6b871a9016e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.4297649
+      value: 0.35122347
       objectReference: {fileID: 0}
     - target: {fileID: 541453574, guid: 6b51cd991247644a28bed6b871a9016e, type: 3}
       propertyPath: m_LocalScale.z
@@ -450,6 +450,10 @@ PrefabInstance:
       propertyPath: m_Color.rgba
       value: 4278190080
       objectReference: {fileID: 0}
+    - target: {fileID: 2093274690, guid: 6b51cd991247644a28bed6b871a9016e, type: 3}
+      propertyPath: infoButton
+      value: 
+      objectReference: {fileID: 978693259}
     - target: {fileID: 4064000716570023473, guid: 6b51cd991247644a28bed6b871a9016e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -650,6 +654,12 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &978693259 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4064000717162054105, guid: 6b51cd991247644a28bed6b871a9016e,
+    type: 3}
+  m_PrefabInstance: {fileID: 724713695}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1004024968 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6677117172386670537, guid: 54796908af276436b865a342c753216f,

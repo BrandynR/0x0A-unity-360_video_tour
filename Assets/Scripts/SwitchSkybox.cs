@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class SwitchSkybox : MonoBehaviour {
    GameObject hotspotImage;
    public GameObject infoBox;
+   //public GameObject infoButton;
  //public Material skybox;
  //public GameObject hotspot;
  //public GameObject currentHotspot;
@@ -47,10 +48,12 @@ public class SwitchSkybox : MonoBehaviour {
  {
     if (infoBox.activeInHierarchy == false)
    {
+      //infoButton.transform.localScale = new Vector3(1.1f, 1.1f, 1.1f);
       infoBox.SetActive(true);
    }
    else
    {
+      //infoButton.transform.localScale = new Vector3(1f, 1f, 1f);
       infoBox.SetActive(false);
    }
  }
